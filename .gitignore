@@ -1,0 +1,38 @@
+# Python virtual environment
+
+venv/
+
+# Python cache
+
+**pycache**/
+*.pyc
+*.pyo
+
+# ChromaDB local database
+
+chroma_db/
+
+# Streamlit cache
+
+.streamlit/
+
+# VS Code
+
+.vscode/
+
+# JetBrains IDEs
+
+.idea/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
+
+# Temporary files
+
+*.tmp
