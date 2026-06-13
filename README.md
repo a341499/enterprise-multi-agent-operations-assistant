@@ -56,7 +56,7 @@ The project showcases multi-agent orchestration, agent-to-agent communication, s
 
 \## Architecture
 
-
+![Enterprise Multi-Agent Architecture](architecture/enterprise_multi_agent_architecture_final.png)
 
 ```text
 
