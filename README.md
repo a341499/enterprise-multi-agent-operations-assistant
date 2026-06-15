@@ -58,64 +58,7 @@ The project showcases multi-agent orchestration, agent-to-agent communication, s
 
 ![Enterprise Multi-Agent Architecture](architecture/enterprise_multi_agent_architecture.png)
 
-```text
-
-User Incident
-
-&#x20;   ↓
-
-Streamlit UI
-
-&#x20;   ↓
-
-Orchestrator Agent
-
-&#x20;   ↓
-
-Classification Agent
-
-&#x20;   ↓
-
-Escalation Agent
-
-&#x20;   ↓
-
-Severity Agent
-
-&#x20;   ↓
-
-Notification Agent
-
-&#x20;   ↓
-
-RCA Agent
-
-&#x20;   ↓
-
-Summary Agent
-
-&#x20;   ↓
-
-Incident Analysis Agent
-
-&#x20;   ↓
-
-Retrieval Agent (ChromaDB)
-
-&#x20;   ↓
-
-Recommendation Agent (Ollama)
-
-&#x20;   ↓
-
-Coordinated Multi-Agent Response
-
-```
-
-
-
 \---
-
 
 
 \## Implemented Agents
