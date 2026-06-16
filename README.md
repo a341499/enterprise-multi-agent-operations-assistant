@@ -1,243 +1,158 @@
-\# Enterprise Multi-Agent Operations Assistant
+# Enterprise Multi-Agent Operations Assistant
 
-
-
-\## Overview
-
-
+## Overview
 
 Enterprise Multi-Agent Operations Assistant is an AI-powered operational intelligence platform that demonstrates how multiple specialized AI agents collaborate using a shared workflow state to analyze incidents, determine severity, perform root cause analysis, retrieve historical incidents, and generate operational recommendations.
 
-
-
 The project showcases multi-agent orchestration, agent-to-agent communication, semantic retrieval, executive summarization, and AI-assisted operational decision support.
 
+---
 
+## Key Features
 
-\---
+* Multi-Agent Orchestration
+* Shared Workflow State
+* Agent-to-Agent Communication
+* Incident Classification
+* Escalation Management
+* Severity Assessment
+* Notification Routing
+* Root Cause Analysis (RCA)
+* Executive Summary Generation
+* Historical Incident Retrieval
+* AI-Assisted Recommendations
+* Workflow Traceability
+* Streamlit Dashboard
 
+---
 
-
-\## Key Features
-
-
-
-\* Multi-Agent Orchestration
-
-\* Shared Workflow State
-
-\* Agent-to-Agent Communication
-
-\* Incident Classification
-
-\* Escalation Management
-
-\* Severity Assessment
-
-\* Notification Routing
-
-\* Root Cause Analysis (RCA)
-
-\* Executive Summary Generation
-
-\* Historical Incident Retrieval
-
-\* AI-Assisted Recommendations
-
-\* Workflow Traceability
-
-\* Streamlit Dashboard
-
-
-
-\---
-
-
-
-\## Architecture
+## Architecture
 
 ![Enterprise Multi-Agent Architecture](architecture/enterprise_multi_agent_architecture.png)
 
-\---
+---
 
+## Implemented Agents
 
-\## Implemented Agents
-
-
-
-\### Orchestrator Agent
-
-
+### Orchestrator Agent
 
 Coordinates workflow execution and shared state management.
 
-
-
-\### Classification Agent
-
-
+### Classification Agent
 
 Determines incident category.
 
-
-
-\### Escalation Agent
-
-
+### Escalation Agent
 
 Determines escalation path.
 
-
-
-\### Severity Agent
-
-
+### Severity Agent
 
 Assigns incident severity.
 
-
-
-\### Notification Agent
-
-
+### Notification Agent
 
 Determines notification actions.
 
-
-
-\### RCA Agent
-
-
+### RCA Agent
 
 Generates likely root cause analysis.
 
-
-
-\### Summary Agent
-
-
+### Summary Agent
 
 Creates executive operational summaries.
 
-
-
-\### Incident Analysis Agent
-
-
+### Incident Analysis Agent
 
 Produces consolidated incident assessment.
 
-
-
-\### Retrieval Agent
-
-
+### Retrieval Agent
 
 Retrieves similar historical incidents using semantic search.
 
-
-
-\### Recommendation Agent
-
-
+### Recommendation Agent
 
 Generates AI-assisted recommendations.
 
+---
 
+## Technology Stack
 
-\---
+* Python
+* Streamlit
+* Ollama
+* Llama Models
+* ChromaDB
+* Vector Embeddings
 
+---
 
+## Sample Capabilities
 
-\## Technology Stack
+* Performance incident analysis
+* Availability incident analysis
+* Security incident analysis
+* Operational recommendations
+* Historical incident matching
+* Executive operational summaries
+* Workflow execution trace visualization
 
+---
 
+## Screenshots
 
-\* Python
+### Incident Dashboard
 
-\* Streamlit
+Operational incident intake interface for submitting production issues into the multi-agent workflow.
 
-\* Ollama
+![Incident Dashboard](screenshots/dashboard_home.png)
 
-\* Llama Models
+### Agent Workflow
 
-\* ChromaDB
+Multi-agent workflow showing how the incident moves through specialized agents.
 
-\* Vector Embeddings
+![Agent Workflow](screenshots/agent_workflow.png)
 
+### Executive Summary
 
+AI-generated operational summary with classification, severity, escalation, and root-cause analysis.
 
-\---
+![Executive Summary](screenshots/executive_summary.png)
 
+### Workflow Execution Trace
 
+Agent-by-agent execution trace showing orchestration transparency.
 
-\## Sample Capabilities
+![Workflow Trace](screenshots/workflow_trace.png)
 
+### Historical Incident Retrieval
 
+Semantic retrieval of similar historical incidents using ChromaDB.
 
-\* Performance incident analysis
+![Historical Retrieval](screenshots/historical_retrieval.png)
 
-\* Availability incident analysis
+### AI Recommendations
 
-\* Security incident analysis
+LLM-assisted recommendations, remediation actions, and risk assessment.
 
-\* Operational recommendations
+![AI Recommendations](screenshots/recommendation_engine.png)
 
-\* Historical incident matching
+### Coordinated Multi-Agent Response
 
-\* Executive operational summaries
+Final consolidated operational response produced by the coordinated agent workflow.
 
-\* Workflow execution trace visualization
+![Coordinated Response](screenshots/coordinated_response.png)
 
+---
 
+## Project Status
 
-\---
+**Status:** Advanced AI MVP Complete ✅
 
+**Completion:** ~97%
 
+---
 
-\## Screenshots
-
-
-
-Add screenshots of:
-
-
-
-1\. Workflow Architecture
-
-2\. Executive Summary Panel
-
-3\. Workflow Execution Trace
-
-4\. Multi-Agent Response Dashboard
-
-
-
-\---
-
-
-
-\## Project Status
-
-
-
-\*\*Status:\*\* Advanced AI MVP Complete ✅
-
-
-
-\*\*Completion:\*\* \~97%
-
-
-
-\---
-
-
-
-\## Outcome
-
-
+## Outcome
 
 Enterprise-style multi-agent operational intelligence platform demonstrating orchestration, retrieval, reasoning, root cause analysis, executive summarization, workflow traceability, and AI-assisted operational decision support.
-
-
-
